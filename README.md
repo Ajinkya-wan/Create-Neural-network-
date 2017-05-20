@@ -1,15 +1,11 @@
-# Simple neural network
-Tried to build Neural network using python.
+Simple neural network
 
-##Overview
+Overview
+This is a single layer feedforward neural network (perceptron). We use binary digits as our inputs and expect binary digits as our outputs.Use of backpropagation(via gradient descent to train our network and make predictions more accurate.
 
-This is the code for [this](https://youtu.be/p69khggr1Jo) video by Siraj Raval on Youtube. This is a single layer feedforward neural network (perceptron). We use binary digits as our inputs and expect binary digits as our outputs. We'll use [backpropagation](http://neuralnetworksanddeeplearning.com/chap2.html) via gradient descent to train our network and make our prediction as accurate as possible.
+Dependencies
 
-##Dependencies
-
-numpy.
-
-##Usage
+numpy
 
 Run ``python demo.py`` in terminal to see it train, then predict.
 
